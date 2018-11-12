@@ -15,6 +15,7 @@
 		BA7465382199DF25006695CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA7465362199DF25006695CD /* LaunchScreen.storyboard */; };
 		BA7465432199DF25006695CD /* CSULA_OrientationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7465422199DF25006695CD /* CSULA_OrientationTests.swift */; };
 		BA74654E2199DF25006695CD /* CSULA_OrientationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA74654D2199DF25006695CD /* CSULA_OrientationUITests.swift */; };
+		BA74655C2199F2F7006695CD /* RegisterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA74655B2199F2F7006695CD /* RegisterTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BA7465492199DF25006695CD /* CSULA OrientationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CSULA OrientationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA74654D2199DF25006695CD /* CSULA_OrientationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSULA_OrientationUITests.swift; sourceTree = "<group>"; };
 		BA74654F2199DF25006695CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA74655B2199F2F7006695CD /* RegisterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				BA74652A2199DF23006695CD /* AppDelegate.swift */,
 				BA74652C2199DF23006695CD /* ViewController.swift */,
+				BA74655B2199F2F7006695CD /* RegisterTableViewController.swift */,
 				BA74652E2199DF23006695CD /* Main.storyboard */,
 				BA7465342199DF25006695CD /* Assets.xcassets */,
 				BA7465362199DF25006695CD /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA74655C2199F2F7006695CD /* RegisterTableViewController.swift in Sources */,
 				BA74652D2199DF23006695CD /* ViewController.swift in Sources */,
 				BA74652B2199DF23006695CD /* AppDelegate.swift in Sources */,
 				BA7465332199DF23006695CD /* CSULA_Orientation.xcdatamodeld in Sources */,
